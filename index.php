@@ -1,5 +1,5 @@
 <?php
-require_once 'controllers/ChatController.php';
+require_once 'public/controllers/ChatController.php';
 
 $chatController = new ChatController();
 
@@ -26,4 +26,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['action']) && $_GET['act
     exit;
 }
 
-include 'views/chat.php';
+include 'public/views/chat.php';

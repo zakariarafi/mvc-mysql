@@ -1,5 +1,5 @@
 <?php
-require_once 'models/ChatModel.php';
+require_once 'public/models/ChatModel.php';
 
 class ChatController
 {
